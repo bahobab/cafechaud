@@ -60,6 +60,9 @@ export default class Navbar extends Component {
             })}
             <li className="nav-item ml-sm-5">
               <FaCartArrowDown className="cart-icon" />
+              {/* https://www.iconfinder.com/icons/185113/coffee_streamline_icon
+Creative Commons (Attribution 3.0 Unported);
+https://www.iconfinder.com/webalys */}
             </li>
           </ul>
         </div>
