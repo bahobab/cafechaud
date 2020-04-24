@@ -30,7 +30,7 @@ export const query = graphql`
     img: file(relativePath: { eq: "default-background.jpeg" }) {
       childImageSharp {
         fluid {
-          ...GatsbyContentfulFluid_withWebp
+          ...GatsbyImageSharpFluid
         }
       }
     }
@@ -43,7 +43,7 @@ export const query = graphql`
           category
           image {
             fixed(width: 50, height: 50) {
-              ...GatsbyContentfulFluid_withWebp
+              ...GatsbyImageSharpFluid
             }
           }
           description {
