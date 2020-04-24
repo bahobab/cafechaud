@@ -15,7 +15,7 @@ const getProducts = graphql`
           image {
             fluid(maxHeight: 500) {
               src
-              ...GatsbyImageSharpFluid
+              ...GatsbyContentfulFluid
             }
           }
         }
