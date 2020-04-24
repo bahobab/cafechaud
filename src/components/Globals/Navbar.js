@@ -58,7 +58,7 @@ export default class Navbar extends Component {
                 </li>
               )
             })}
-            <li className="nav-item ml-sm-5">
+            <li className="nav-item ml-sm-5 snipcart-checkout">
               <FaCartArrowDown className="cart-icon" />
               {/* https://www.iconfinder.com/icons/185113/coffee_streamline_icon
 Creative Commons (Attribution 3.0 Unported);

@@ -48,13 +48,13 @@ class Menu extends Component {
               <div className="col-10 mx-auto text-center">
                 {this.state.categories.map((category, index) => {
                   return (
-                    <buton
+                    <button
                       key={index}
                       className="btn btn-yellow text-capitalize m-3"
                       onClick={() => this.handleCategories(category)}
                     >
                       {category}
-                    </buton>
+                    </button>
                   )
                 })}
               </div>
